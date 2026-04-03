@@ -39,6 +39,7 @@ public class HashMapType <K, V> {
     public void addIntegerKeyTypedItem() {
         Integer key= 11;
         map.put((K) key,(V) "eleven");
+        //map.put(12, "twelve"); // compile time error
     }
 
 
